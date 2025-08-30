@@ -9,28 +9,29 @@ what does it do?
 * runs right in your terminal
 * keeps things minimal and clean
 
-quick start
-if you have cargo installed, just run:
-```bash
-cargo install cli type
-```
-
-then type this command whenever you want to practice:
-```bash
-cli type
-```
 
 how it works
 when you start the app, you'll see something like this:
 
 ```
-type this:
-> fn main() {
-    println!("hello world");
-}
+██████╗ ██╗   ██╗███████╗████████╗██╗   ██╗      ████████╗██╗   ██╗██████╗ ███████╗
+██╔══██╗██║   ██║██╔════╝╚══██╔══╝╚██╗ ██╔╝      ╚══██╔══╝╚██╗ ██╔╝██╔══██╗██╔════╝
+██████╔╝██║   ██║███████╗   ██║    ╚████╔╝ █████╗   ██║    ╚████╔╝ ██████╔╝█████╗
+██╔══██╗██║   ██║╚════██║   ██║     ╚██╔╝  ╚════╝   ██║     ╚██╔╝  ██╔═══╝ ██╔══╝
+██║  ██║╚██████╔╝███████║   ██║      ██║            ██║      ██║   ██║     ███████╗
+╚═╝  ╚═╝ ╚═════╝ ╚══════╝   ╚═╝      ╚═╝            ╚═╝      ╚═╝   ╚═╝     ╚══════╝
 
-start typing:
->
+Welcome to RUSTY-TYPES: Test your Rust coding speed and accuracy
+Press 'Esc' to exit anytime. :)
+
+Type the following Rust code:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Arc::new(data)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Start typing here:
 ```
 
 just type what you see and the app will:
@@ -47,8 +48,8 @@ built using:
 
 want to run it locally?
 ```bash
-git clone https://github.com/yourname/cli type.git
-cd cli type
+git clone https://github.com/waliilaw/Rusty-type
+cd Rusty-type
 cargo run
 ```
 
